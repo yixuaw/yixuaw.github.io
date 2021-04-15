@@ -8,3 +8,9 @@ navbar:
       href: project.html
     - text: "About"
       href: about.html
+      
+output:
+  html_document:
+    theme: cosmo2
+    highlight: textmate
+  
