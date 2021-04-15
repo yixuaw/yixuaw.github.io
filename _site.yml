@@ -1,6 +1,7 @@
 name: "yixuan wang's website"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Yixuan Wang"
   left:
     - text: "Home"
       href: index.html
@@ -8,9 +9,8 @@ navbar:
       href: project.html
     - text: "About"
       href: about.html
-      
+
 output:
   html_document:
-    theme: cosmo2
+    theme: simplex
     highlight: textmate
-  
